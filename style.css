@@ -70,21 +70,74 @@ header .headline {
 	margin-top:30px;
 }
 
-.main {
-	width: 840px;
+main {
+	width: 800px;
 	margin: 0 auto ;
+	padding: 70px 0;
+	/*background-color: pink;*/
 }
 
 .blog {
-	width: 600px;
-	height: 1400px;
+	width: 540px;
+	margin-right: 30px;
+	/*height: 1400px;*/
+	float: left;
+	/*background-color: green;*/
+}
+
+.blog-headline {
+	text-align: center;
+	border-bottom: 8px solid #f7f7f7;
+	line-height: 0.6;
+}
+
+.blog-box {
+	/*background-color: orange;*/
+	padding-top: 50px;
+
+}
+
+.blog-item {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-image {
+	height: 180px;
 	float: left;
 }
 
-.sidebar {
-	width: 240px;
-	height: 1400px;
+.blog-text {
 	float: left;
+	padding-top: 30px;
+	padding-left: 25px;
+	/*background-color: green;*/
+}
+
+.blog-text-headline {
+	padding-bottom: 15px;
+}
+
+.blog-date {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.category {
+	display: inline-block;
+	padding: 5px 8px;
+	background-color:#acabab;
+	font-size:11px;
+	border-radius:3px;
+	color:#fff;
+}
+
+.sidebar {
+	width: 230px;
+	/*height: 1400px;*/
+	float: left;
+	/*background-color: blue;*/
 }
 
 footer {
