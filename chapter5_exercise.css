@@ -1,0 +1,170 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	padding: 20px 0;
+	/*margin: 0 auto; */
+	text-align: center;
+	/*background-color: red;*/
+}
+
+header .headline {
+	font-size: 30px;
+}
+
+.nav {
+	/*text-align: center;*/
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	/*background-color: blue;*/
+}
+
+.list {
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+.list-item {
+	margin: 0 20px;
+	list-style: none;
+	display: inline-block;
+}
+
+.main {
+	padding: 50px 0;
+	width: 100%;
+	height: 700px;
+	/*background-color: green;*/
+}
+
+.main-boxes {
+	list-style: none;
+	width: 800px;
+	/*text-align: center;*/
+	margin: 0 auto;
+	background-color: black;
+	/*display: inline-block;*/
+	/*font-size: 0;*/
+}
+
+.box1 {
+	/*list-style: none;*/
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #e6ffe9;
+	float: left;
+	/*display: block;*/
+}
+
+.box2 {
+	/*list-style: none;*/
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #cbffd3;
+	float: left;
+	/*display: block;*/
+}
+
+.box3 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #aeffbd;
+	float: left;
+}
+
+.box4 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #93ffab;
+	float: left;
+}
+
+.box5 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #f3ffd8;
+	float: left;
+}
+
+.box6 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #edffbe;
+	float: left;
+}
+
+.box7 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #e9ffa5;
+	float: left;
+}
+
+.box8 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #e4ff8d;
+	float: left;
+}
+
+.box9 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #d9e5ff;
+	float: left;
+}
+
+.box10 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #bad3ff;
+	float: left;
+}
+
+.box11 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #a4c6ff;
+	float: left;
+}
+
+.box12 {
+	width: 200px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	background-color: #8eb8ff;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	background-color: grey;
+}
+
+.footer-text {
+	line-height: 120px;
+	color: white;
+}
